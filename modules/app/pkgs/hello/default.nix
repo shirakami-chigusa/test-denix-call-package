@@ -1,3 +1,6 @@
+###
+# Even if you don't use it, it will always be evaluated as a module.
+##
 { pkgs, ... }:
 pkgs.stdenvNoCC.mkDerivation {
   name = "hello";
