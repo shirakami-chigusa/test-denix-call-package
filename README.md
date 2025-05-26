@@ -70,9 +70,9 @@ pkgs.stdenvNoCC.mkDerivation {
 }
 ```
 
-Packages defined outside the `modules` directory, for example in the `packages` directory, are fine.
+Packages defined outside the `modules` directory, for example in the `/packages/hello` directory, are fine.
 
-However, if I define a package in a `modules` directory, I will get an error, even if I don't use that package.
+However, if I define a package in a `/modules/app/hello/pkgs/hello` directory, I will get an error, even if I don't use that package.
 
 ## Test
 
