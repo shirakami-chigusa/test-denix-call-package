@@ -4,8 +4,8 @@
   ...
 }:
 let
-  # hello = pkgs.callPackage ../../packages/hello { };
-  # hello = pkgs.callPackage ./pkgs/hello { };
+  # hello = pkgs.callPackage ../../../packages/hello { };
+  hello = pkgs.callPackage ./pkgs/hello { };
 in
 delib.module {
   name = "app.hello";
